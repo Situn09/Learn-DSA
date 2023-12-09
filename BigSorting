@@ -1,0 +1,6 @@
+function bigSorting(unsorted) {
+    // Write your code 
+    return unsorted
+        .map(a=>BigInt(a))
+        .sort((a,b)=>(a<b ? -1:a>b?1:0))
+}
